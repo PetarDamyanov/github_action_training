@@ -12,4 +12,4 @@ jobs:
 
         
       - name: test multiply function
-        run: python -m unittest test_muliply.py
+        run: python -m unittest test_multiply.py
