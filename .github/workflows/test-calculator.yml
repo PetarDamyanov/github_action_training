@@ -1,12 +1,6 @@
-name: Test Calculator
-
-on:
-  push:
-    branches: [ "main" ]
-
-  workflow_dispatch:
-
-  jobs:
+name: Test
+on: workflow_dispatch
+jobs:
   unittests:
     runs-on: ubuntu-latest
 
